@@ -1,0 +1,17 @@
+<suite name="RetailApp">
+	<test name="LoginTest">
+		<classes>
+			<class name="com.retailapp.tests.LoginTest"></class>
+		</classes>
+	</test>
+
+	<test name="AddCategory">
+		<classes>
+			<class name="com.retailapp.tests.AddCategory"></class>
+		</classes>
+	
+	</test>
+	
+
+
+</suite>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8340" started-at="2020-07-25T10:19:06Z" finished-at="2020-07-25T10:19:14Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8340" started-at="2020-07-25T10:19:06Z" finished-at="2020-07-25T10:19:14Z">
+      <class name="com.retailapp.tests.LoginTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.retailapp.tests.LoginTest@610694f1]" name="init" is-config="true" duration-ms="1698" started-at="2020-07-25T11:19:06Z" finished-at="2020-07-25T11:19:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="initextent()[pri:0, instance:com.retailapp.tests.LoginTest@610694f1]" name="initextent" is-config="true" duration-ms="283" started-at="2020-07-25T11:19:10Z" finished-at="2020-07-25T11:19:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initextent -->
+        <test-method status="PASS" signature="doLogin(java.util.Hashtable)[pri:0, instance:com.retailapp.tests.LoginTest@610694f1]" name="doLogin" duration-ms="3676" started-at="2020-07-25T11:19:10Z" data-provider="getData" finished-at="2020-07-25T11:19:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=admin, ExpectedLoginStatus=success, Password=xxx, Runmode=Y, Result=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="afterextent()[pri:0, instance:com.retailapp.tests.LoginTest@610694f1]" name="afterextent" is-config="true" duration-ms="392" started-at="2020-07-25T11:19:14Z" finished-at="2020-07-25T11:19:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterextent -->
+        <test-method status="PASS" signature="initextent()[pri:0, instance:com.retailapp.tests.LoginTest@610694f1]" name="initextent" is-config="true" duration-ms="0" started-at="2020-07-25T11:19:14Z" finished-at="2020-07-25T11:19:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initextent -->
+        <test-method status="PASS" signature="doLogin(java.util.Hashtable)[pri:0, instance:com.retailapp.tests.LoginTest@610694f1]" name="doLogin" duration-ms="41" started-at="2020-07-25T11:19:14Z" data-provider="getData" finished-at="2020-07-25T11:19:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=adminqq, ExpectedLoginStatus=success, Password=whizdom, Runmode=Y, Result=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="afterextent()[pri:0, instance:com.retailapp.tests.LoginTest@610694f1]" name="afterextent" is-config="true" duration-ms="68" started-at="2020-07-25T11:19:14Z" finished-at="2020-07-25T11:19:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterextent -->
+        <test-method status="PASS" signature="initextent()[pri:0, instance:com.retailapp.tests.LoginTest@610694f1]" name="initextent" is-config="true" duration-ms="1" started-at="2020-07-25T11:19:14Z" finished-at="2020-07-25T11:19:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initextent -->
+        <test-method status="PASS" signature="doLogin(java.util.Hashtable)[pri:0, instance:com.retailapp.tests.LoginTest@610694f1]" name="doLogin" duration-ms="77" started-at="2020-07-25T11:19:14Z" data-provider="getData" finished-at="2020-07-25T11:19:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=admin, ExpectedLoginStatus=success, Password=whizdom, Runmode=Y, Result=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="afterextent()[pri:0, instance:com.retailapp.tests.LoginTest@610694f1]" name="afterextent" is-config="true" duration-ms="75" started-at="2020-07-25T11:19:14Z" finished-at="2020-07-25T11:19:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterextent -->
+      </class> <!-- com.retailapp.tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
