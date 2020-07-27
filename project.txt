@@ -1,3 +1,1 @@
-This is the first entry in the project
-We are learning git, locally and online
-This is init git local etc etc
+This code has been updated
